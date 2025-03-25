@@ -22,7 +22,7 @@ const Projects = () => {
       title: "College ERP Portal Backend",
       description:
         "MERN stack Project - Developed a project featuring dedicated portals for students and faculty. Introduced innovative functionalities to address limitations of traditional ERP systems, enhancing user experience, data management, and accessibility.",
-      tags: ["MERN", "React.js", "Node.js", "MongoDB", "Express.js"],
+      tags: ["MERN", "React.js", "Node.js", "MongoDB", "Express.jsS"],
       links: {
         github: "#",
         demo: "#",
