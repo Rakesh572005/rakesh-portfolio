@@ -19,6 +19,16 @@ const Projects = () => {
       },
     },
     {
+      title: "My Portfolio",
+      description:
+        "Describe my resume.",
+      tags: ["MERN", "React.js", "Next.js", "Tailwindcss],
+      links: {
+        github: "#",
+        demo: "#",
+      },
+    },
+    {
       title: "College ERP Portal Backend",
       description:
         "MERN stack Project - Developed a project featuring dedicated portals for students and faculty. Introduced innovative functionalities to address limitations of traditional ERP systems, enhancing user experience, data management, and accessibility.",
