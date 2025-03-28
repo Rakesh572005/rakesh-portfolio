@@ -31,7 +31,11 @@ const Achievements = () => {
   const certifications = [
     "Achieved Python (basic) certificate in HackerRank",
     "Achieved CISCO CPA: Programming Essentials in C++",
+    "Achieved GUVI’S Skill-A-Thon Certificate On UI/UX design using Figma tool.",
     "Achieved CISCO Python Essentials 1",
+    "Achieved NPTEL-Certificate in Programming in JAVA",
+    "Achieved NPTEL-Certificate in Remote Sensing and Gis for rural development",
+    "Achieved NPTEL-Certificate in Data Analytics with Python",
     "Achieved Cloud Skills Challenge: Azure AI Fundamentals by Microsoft",
   ]
 

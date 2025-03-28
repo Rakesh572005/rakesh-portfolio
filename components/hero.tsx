@@ -11,14 +11,12 @@ const Hero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
-            <span className="gradient-text">Hi, I'm Rakesh Manubolu</span>
+            <span className="gradient-text">Rakesh Manubolu</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-foreground/80 mb-6">
             IT Professional specializing in MERN stack, IoT, and AI-driven applications
           </h2>
           <p className="text-lg text-foreground/70 mb-8 max-w-2xl">
-            A dedicated Information Technology student passionate about learning new technologies and building
-            innovative solutions. Seeking opportunities to apply and enhance my skills through impactful projects.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-8">

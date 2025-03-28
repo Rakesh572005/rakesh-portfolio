@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin, Phone,Github,GitBranch } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
 
 const Contact = () => {
@@ -54,6 +54,12 @@ const Contact = () => {
       title: "Phone",
       details: "+91 9121970425",
       link: "tel:+919121970425",
+    },
+    {
+      icon: <Github className="h-5 w-5 text-primary" />,
+      title: "GIT HUB",
+      details: "Rakesh5702005",
+      link: "https://github.com/Rakesh572005",
     },
     {
       icon: <MapPin className="h-5 w-5 text-primary" />,
