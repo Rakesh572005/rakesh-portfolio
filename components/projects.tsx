@@ -22,7 +22,7 @@ const Projects = () => {
       title: "My Portfolio",
       description:
         "Describe my resume.",
-      tags: ["MERN", "React.js", "Next.js", "Tailwindcss],
+      tags: ["MERN", "React.js", "Next.js", "Tailwindcss"],
       links: {
         github: "#",
         demo: "#",
