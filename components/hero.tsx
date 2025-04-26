@@ -34,13 +34,13 @@ const Hero = () => {
 
           <div className="flex gap-4">
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
-              <a href="https://github.com/rakeshmanubolu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/Rakesh572005" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
               <a
-                href="https://linkedin.com/in/rakeshmanubolu"
+                href="https://www.linkedin.com/in/rakesh-manubolu-82966b2b6?"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
