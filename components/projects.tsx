@@ -14,17 +14,17 @@ const Projects = () => {
         "A IoT and Deep Learning based project - Developed a IoT-based system integrating deep learning models to analyze biometric data from fingerprint sensors and predict blood groups. Combined DL and hardware integration for accurate and efficient results.",
       tags: ["IoT", "Deep Learning", "Biometrics", "Python"],
       links: {
-        github: "#",
+        github: "https://github.com/Rakesh572005/BloodGroupUsingFingerprint.git",
         demo: "#",
       },
     },
     {
       title: "My Portfolio",
       description:
-        "Describe my resume.",
+        "Created and deployed a personal portfolio website to showcase my skills, projects, and achievements. Built using HTML, CSS, and JavaScript with a focus on responsive design and professional presentation.",
       tags: ["MERN", "React.js", "Next.js", "Tailwindcss"],
       links: {
-        github: "#",
+        github: "https://github.com/Rakesh572005/rakesh-portfolio.git",
         demo: "#",
       },
     },
@@ -34,7 +34,7 @@ const Projects = () => {
         "MERN stack Project - Developed a project featuring dedicated portals for students and faculty. Introduced innovative functionalities to address limitations of traditional ERP systems, enhancing user experience, data management, and accessibility.",
       tags: ["MERN", "React.js", "Node.js", "MongoDB", "Express.jsS"],
       links: {
-        github: "#",
+        github: "https://github.com/Rakesh572005/URVERSE_ERP_PORTAL.git",
         demo: "#",
       },
     },
@@ -54,7 +54,7 @@ const Projects = () => {
         "A Java Backend Project - Designed and developed a Java backend project for booking tickets to movies, concerts, and shows, with features to apply discount coupons. Utilized SQL for secure data storage and efficient ticket management.",
       tags: ["Java", "SQL", "Backend", "Web Development"],
       links: {
-        github: "#",
+        github: "https://github.com/Rakesh572005/URVERSE_movie_booking_backend.git",
         demo: "#",
       },
     },
