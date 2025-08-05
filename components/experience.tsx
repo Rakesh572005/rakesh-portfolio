@@ -7,12 +7,12 @@ import { Calendar, MapPin } from "lucide-react"
 const Experience = () => {
   const experiences = [
     {
-      title: "Frontend Developer Intern",
-      company: "Edubot Software & Services",
-      location: "Vijayawada, India",
-      period: "Dec 2024 - Present",
+      title: "RESEARCH Intern",
+      company: "National Institute of Technology",
+      location: "Warangal, India",
+      period: "May 2025 - July 2025",
       description:
-        "Developed and optimized frontend pages using ShadCN, Tailwind CSS and TypeScript. Collaborated with teams to ensure seamless routing techniques, and improve performance, accessibility, and cross-browser compatibility.",
+        "Focused on analyzing gene sequence data to explore the associations between genetic variations, disease phenotypes, and drug responsiveness using machine learning. Developed and applied tailored ML models to extract key features from gene sequences and improve biological interpretation in a bioinformatics framework.",
     },
     {
       title: "AIoT Intern",
@@ -33,7 +33,7 @@ const Experience = () => {
         viewport={{ once: true }}
         className="mb-12 text-center"
       >
-        <h2 className="text-3xl font-bold mb-4">Work Experience</h2>
+        <h2 className="text-3xl font-bold mb-4">Internships</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
           My professional journey and internship experiences that have shaped my skills and knowledge.

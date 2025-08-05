@@ -59,8 +59,7 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
-          I'm a dedicated Information Technology student with expertise in MERN stack, IoT, and AI-driven applications.
-          I'm passionate about learning new technologies and building innovative solutions.
+          To obtain a dynamic role where I can leverage my technical skills and creativity to drive innovation, contribute to organizational success, and continuously enhance my problem-solving abilities.
         </p>
       </motion.div>
 
