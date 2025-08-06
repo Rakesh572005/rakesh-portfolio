@@ -25,9 +25,15 @@ const Hero = () => {
                 Contact Me <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button variant="outline" asChild className="border-primary/20 hover:bg-primary/5">
-              <a href="/Rakesh Final Resume.pdf" download>
+            {/*<Button variant="outline" asChild className="border-primary/20 hover:bg-primary/5">
+              <a href="/rakesh_Final_blackTheme.pdf" download>
                 Download Resume <Download className="ml-2 h-4 w-4" />
+              </a>
+            </Button>*/}
+
+            <Button variant="outline" asChild className="border-primary/20 hover:bg-primary/5">
+              <a href="/rakesh_Final_blackTheme.pdf" target="_blank" rel="noopener noreferrer">
+                View Resume <Download className="ml-2 h-4 w-4" />
               </a>
             </Button>
           </div>
