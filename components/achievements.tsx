@@ -29,6 +29,11 @@ const Achievements = () => {
   ]
 
   const certifications = [
+    "Currently pursuing the Microsoft DP-700: Fabric Data Engineer Associate certification",
+    "Achieved Java (Basic) certificate from HackerRank",
+    "Achieved Java Full Stack Certification from Wipro TalentNext",
+    "Achieved Corporate On Campus Program on Frontend Development certification from Edubot Software Services",
+    "Achieved Python Essentials 1 certificate from Cisco",
     "Achieved Python (basic) certificate in HackerRank",
     "Achieved CISCO CPA: Programming Essentials in C++",
     "Achieved GUVI’S Skill-A-Thon Certificate On UI/UX design using Figma tool.",
@@ -37,6 +42,7 @@ const Achievements = () => {
     "Achieved NPTEL-Certificate in Remote Sensing and Gis for rural development",
     "Achieved NPTEL-Certificate in Data Analytics with Python",
     "Achieved Cloud Skills Challenge: Azure AI Fundamentals by Microsoft",
+    "Achieved Salesforce Certified AI Associate certification from Salesforce"
   ]
 
   return (
