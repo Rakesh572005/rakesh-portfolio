@@ -7,7 +7,12 @@ import { Badge } from "@/components/ui/badge"
 
 const About = () => {
   const skills = {
-    languages: ["C", "Java", "Python", "JavaScript", "TypeScript"],
+    Programming: ["C", "Java", "Python", "JavaScript", "TypeScript"],
+    Data_Engineering: ["ETL/ELT", "Data Pipelines","Data Warehousing", "Data Modeling", "Data Integration",
+                       "Data Transformation", "Apache Spark (PySpark)"],
+    Cloud:["Microsoft Fabric", "AWS (S3)"],
+    Databases: ["Snowflake", "MySQL", "PL/SQL"],
+    Visualization:[ "Power BI"],
     technologies: [
       "HTML",
       "CSS",
@@ -29,7 +34,7 @@ const About = () => {
       field: "Information Technology",
       institution: "Lakireddy Bali Reddy College of Engineering",
       period: "2022 – 2026",
-      grade: "CGPA: 8.56 at Present",
+      grade: "CGPA: 8.56 ",
     },
     {
       degree: "Intermediate",
@@ -59,7 +64,7 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
         <p className="text-lg text-foreground/70 max-w-3xl mx-auto">
-          To obtain a dynamic role where I can leverage my technical skills and creativity to drive innovation, contribute to organizational success, and continuously enhance my problem-solving abilities.
+          Aspiring Data Engineer with hands-on experience in SQL, Python, Snowflake, PySpark, and ETL pipeline development. Skilled in data modeling, data warehousing, and building scalable data solutions. Passionate about transforming raw data into reliable business insights through efficient data pipelines and analytics.
         </p>
       </motion.div>
 
