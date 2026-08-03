@@ -14,7 +14,7 @@ const Hero = () => {
             <span className="gradient-text">Rakesh Manubolu</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium text-foreground/80 mb-6">
-            IT Professional specializing in MERN stack, IoT, and AI-driven applications
+            Aspiring Data Engineer specializing in ETL pipeline development, data warehousing, and scalable data solutions using SQL, Python, and Snowflake.
           </h2>
           <p className="text-lg text-foreground/70 mb-8 max-w-2xl">
           </p>
