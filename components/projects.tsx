@@ -9,6 +9,28 @@ import { ExternalLink, Github } from "lucide-react"
 const Projects = () => {
   const projects = [
     {
+      title: "Snowflake Data Warehouse & Analytics Project",
+      description:
+        "Designed and developed an end-to-end ETL pipeline using Snowflake and SQL, transforming customer and airline data into analytics-ready datasets. Performed SQL-based analysis on airline data to identify delay,cancellation, and reliability trends, and created Power BI dashboards for business reporting",
+      tags: ["Snowflake", "SQL", "PL/SQL", "Python", "PowerBi"],
+      links: {
+        github: "https://github.com/Rakesh572005/Snowflake-Data-Warehouse-Analytics-Project.git",
+        demo: "#",
+      },
+    },
+    
+    {
+      title: "AI-Based Multi-Disease Detection from Tongue Images",
+      description:
+        "Designing a deep learning-based system to detect multiple diseases from tongue images using models with image preprocessing and segmentation. Building a web interface to enable real-time,explainable predictions for accessible clinical screening.",
+      tags: ["IoT", "Deep Learning", "SQL", "Python"],
+      links: {
+        github: "#",
+        demo: "#",
+      },
+    },
+    
+    {
       title: "Blood Group Recognition through Fingerprint",
       description:
         "A IoT and Deep Learning based project - Developed a IoT-based system integrating deep learning models to analyze biometric data from fingerprint sensors and predict blood groups. Combined DL and hardware integration for accurate and efficient results.",
@@ -18,6 +40,7 @@ const Projects = () => {
         demo: "#",
       },
     },
+    
     {
       title: "My Portfolio",
       description:
@@ -28,6 +51,7 @@ const Projects = () => {
         demo: "#",
       },
     },
+    
     {
       title: "College ERP Portal Backend",
       description:
@@ -38,6 +62,7 @@ const Projects = () => {
         demo: "#",
       },
     },
+    
     {
       title: "Smart Health Care Through AIoT",
       description:
@@ -48,6 +73,7 @@ const Projects = () => {
         demo: "#",
       },
     },
+    
     {
       title: "URVERSE - Movie Ticket Booking Website",
       description:
