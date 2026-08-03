@@ -88,7 +88,67 @@ const About = () => {
                 <div>
                   <h3 className="text-lg font-medium mb-3 text-primary">Programming Languages</h3>
                   <div className="flex flex-wrap gap-2">
-                    {skills.languages.map((skill) => (
+                    {skills.Programming.map((skill) => (
+                      <Badge
+                        key={skill}
+                        variant="secondary"
+                        className="text-sm py-1 bg-secondary/70 hover:bg-secondary"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-medium mb-3 text-primary">Data Engineering</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.Data_Engineering.map((skill) => (
+                      <Badge
+                        key={skill}
+                        variant="secondary"
+                        className="text-sm py-1 bg-secondary/70 hover:bg-secondary"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-medium mb-3 text-primary">Cloud</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.Cloud.map((skill) => (
+                      <Badge
+                        key={skill}
+                        variant="secondary"
+                        className="text-sm py-1 bg-secondary/70 hover:bg-secondary"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-medium mb-3 text-primary">Databases</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.Databases.map((skill) => (
+                      <Badge
+                        key={skill}
+                        variant="secondary"
+                        className="text-sm py-1 bg-secondary/70 hover:bg-secondary"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-medium mb-3 text-primary">Visualization</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.Visualization.map((skill) => (
                       <Badge
                         key={skill}
                         variant="secondary"

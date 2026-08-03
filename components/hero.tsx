@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowRight, Download, Github as GithubIcon, Linkedin as LinkedinIcon, Mail } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image";
 const Hero = () => {
@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="flex gap-4">
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
               <a href="https://github.com/Rakesh572005" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github className="h-5 w-5" />
+                <GithubIcon className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>
@@ -51,7 +51,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="h-5 w-5" />
+                <LinkedinIcon className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="icon" className="rounded-full hover:bg-primary/10 hover:text-primary" asChild>

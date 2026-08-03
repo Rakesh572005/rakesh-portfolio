@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, Github as GithubIcon } from "lucide-react"
 
 const Projects = () => {
   const projects = [
@@ -132,7 +132,7 @@ const Projects = () => {
               <CardFooter className="flex gap-2">
                 <Button variant="outline" size="sm" className="border-primary/20 hover:bg-primary/5" asChild>
                   <a href={project.links.github} target="_blank" rel="noopener noreferrer">
-                    <Github className="h-4 w-4 mr-2" /> Code
+                    <GithubIcon className="h-4 w-4 mr-2" /> Code
                   </a>
                 </Button>
                 <Button variant="default" size="sm" className="shadow-soft" asChild>
